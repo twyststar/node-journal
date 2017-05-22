@@ -1,0 +1,14 @@
+.clickEntry {
+  cursor: pointer;
+  color: #0088cc;
+}
+.clickEntry:hover {
+  text-decoration: underline;
+}
+#show-entry {
+  display: none;
+}
+
+.letters {
+  color: lightblue;
+}

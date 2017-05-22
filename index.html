@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+  <script src="build/js/vendor.min.js"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
+  <link rel="stylesheet" href="/css/styles.css" media="screen" title="no title" charset="utf-8">
+    <title>Journal</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6">
+          <h1>Journal</h1>
+          <h4>Add an entry:</h4>
+          <form id="journal-form">
+            <div class="form_group">
+              <label for="name">Entry Name:</label>
+              <br>
+              <input type="text" name="name" id="name">
+              <br>
+              <label for="entry">Store Description:</label>
+              <textarea class="form-control" name="entry" id="entry" rows="3"></textarea>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-block">Add Entry</button>
+          </form>
+        </div>
+        <div class="col-xs-6">
+          <h2>Entries:</h2>
+          <ul id="entries">
+
+          </ul>
+          <br>
+          <br>
+          <div id="show-entry">
+            <h2></h2>
+            <p><span class="fullEntry"></span></p>
+            <p><span class="letters"></span></p>
+          </div>
+        </div>
+    </div>
+    </div>
+  </body>
+</html>
